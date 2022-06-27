@@ -1,0 +1,139 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    -black-: #000000;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(231, 231, 231);
+}
+
+nav {
+    background-color: #0180ff;
+    -webkit-box-shadow: 0px 5px 31px 5px rgb(231, 231, 231);
+    box-shadow: 0px 5px 31px 5px rgb(231, 231, 231);
+    max-height: 100px;
+}
+
+.icon {
+    border-radius: 10px 10px 10px 10px;
+    margin: 0.5%;
+    width: 5%;
+    margin-right: 1%;
+}
+
+#buscador {
+    border: none;
+    background-color: rgb(232, 246, 255);
+    padding: 0.5%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#listaArticulos {
+    overflow: hidden;
+    background-color: rgb(232, 246, 255);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 55px;
+    max-height: 55px;
+}
+
+.articulo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.li-a {
+    color: #656975;
+    border-left: 2px solid #e8f6ff;
+    padding-left: 2.5%;
+}
+
+.li-a:hover {
+    border-left: 2px solid #0892ee;
+}
+
+.buscador-div {
+    position: absolute;
+    top: 3%;
+    left: 6.5%;
+}
+
+
+/*----------------*/
+
+.filtroD {
+    display: flex;
+}
+
+.filtro {
+    display: none;
+}
+
+
+/*----------------*/
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 9.5%;
+    top: 5.3%;
+    color: rgb(127, 132, 133);
+}
+
+.as {
+    color: white;
+    padding-bottom: 0.1%;
+    position: absolute;
+    top: 4%;
+    right: 10%;
+}
+
+.as:hover {
+    border-bottom: 3px solid #00ad9d;
+}
+
+.home {
+    right: 4%;
+}
+
+.info {
+    right: 17%;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 80% 20%;
+}
+
+.popular {
+    background-color: #0079f1;
+}
+
+.puntoi {
+    color: white;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.puntot {
+    display: inline;
+}
+
+.etiquetas {
+    gap: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/*body*/
